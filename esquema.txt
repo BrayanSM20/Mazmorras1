@@ -1,0 +1,38 @@
+dungeon-game/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── application/
+│   │   │   │   └── DungeonGameApp.java
+│   │   │   │
+│   │   │   ├── controller/
+│   │   │   │   ├── CharacterCreationController.java
+│   │   │   │   ├── GameController.java
+│   │   │   │   └── MainController.java
+│   │   │   │
+│   │   │   ├── model/
+│   │   │   │   ├── Board.java
+│   │   │   │   ├── Cell.java
+│   │   │   │   ├── Character.java
+│   │   │   │   ├── Enemy.java
+│   │   │   │   ├── Game.java
+│   │   │   │   ├── GameLoader.java
+│   │   │   │   ├── GameObserver.java
+│   │   │   │   └── Player.java
+│   │   │   │
+│   │   │   ├── util/
+│   │   │   │   └── FileLoader.java
+│   │   │   │
+│   │   │   └── module-info.java
+│   │   │
+│   │   ├── resources/
+│   │   │   ├── view/
+│   │   │   │   ├── CharacterCreationView.fxml
+│   │   │   │   └── GameView.fxml
+│   │   │   │
+│   │   │   └── styles/
+│   │   │       └── application.css
+│   │   │
+│   │   └── data/
+│   │       ├── map.txt
+│   │       └── enemies.txt
